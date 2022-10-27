@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <style>
+        h1 {
+            background-color: red;
+        }
+        p {
+            background-color: blue;
+        }
+        span {
+            background-color: yellow;
+        }
+        body {
+            background-color: antiquewhite;
+        }
+
+        .block{
+            width: 100px;
+            padding-left: 20px; 
+            border: 2px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            /* margin-left: 50px; */
+            /* background color wordt niet overgenomen in margin*/
+        }
+        .blockPar{
+            width: 50%;
+            /* margin: 50px; */
+            /* alle margins: top, right, left, bottom */
+            /* margin-left: 30px;
+            margin-bottom: 40px;
+            margin-right: 50px;
+            margin-top: 100px; */
+
+            margin: 100px 50px 40px 30px;
+            /* begint top, daarna wijzerzin dus right bottom left */
+            padding: 50px 10px 100px 50px;
+        }
+        .spanCenter {
+            margin-right: auto;
+            margin-left: auto;
+            width: 50px; /* no width on inline elements */
+            /* display: block; naar block forceren. Nadeel:  */
+            display: inline-block; /* blijft inline, maar gedraagt als block, je blijft wel op zelfde regel */
+        }
+    </style>
+</head>
+<body>
+<h1 class="block">VIVES</h1>
+<p class="blockPar"><span class="spanCenter">CSS</span></p>
+
+</body>
+</html>
