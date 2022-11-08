@@ -14,12 +14,12 @@ p {
     font-family: "Times New Roman";
     font-size:1.2em;
 }
-p.kleurp1 {
+.kleurp1 {
     color: red;
 }
-p.kleurp2 {
+.kleurp2 {
     color: green;
 }
-p.kleurp3 {
+.kleurp3 {
     color: blue;
 }
