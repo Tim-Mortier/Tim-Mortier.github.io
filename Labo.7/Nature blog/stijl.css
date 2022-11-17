@@ -1,0 +1,37 @@
+article {
+    padding-top: 20px;
+    margin-top: 10px;
+    background-color: #989897;
+}
+article h1 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+.backgroundimage {
+    background-image: url("header.jpg");
+    background-repeat: no-repeat;
+    height: 100px
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #484847;
+    color: black;
+}
+nav a {
+    color: #4a987b;
+}
+
+.title {
+    font-size: 3em;
+    color: white;
+    margin: 3px;
+    margin-left: 3px;
+}

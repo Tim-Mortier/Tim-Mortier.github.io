@@ -1,0 +1,25 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.title{
+    background-color: #aaaac8;
+}
+table tbody tr.days td {
+    background-color: #232546;
+    color: #c8bef0;
+    border: 1px dotted #c8bef0;
+}
+tbody tr td:first-child, tbody tr td:last-child{
+    background-color: #ffdcdc;
+}
+table tbody tr td.dayoff{
+    background-color: #fa7878;
+}
+
+table tbody tr td{
+    border: 1px dotted black;
+}
+table tbody tr td.end-begin-month{
+    background-color: gray;
+}
