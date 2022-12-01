@@ -1,0 +1,45 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    width: 25%;
+    float: left;
+    background-color: green;
+    height: 150px;
+}
+ul{
+    list-style: none;
+}
+section{
+    width: 75%;
+    float: left;
+    padding: 10px; /* hierdoor zal optelsom niet meer kloppen en zal het niet meer op 1 lijn staan*/
+    box-sizing: border-box; /* fixt het */
+    background-color: red;
+    height: 150px;
+}
+footer{
+    width: 100%;
+    clear: both;
+    background-color: lime;
+    height: 150px;
+}
+span{
+    background-color: green;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
+body{ /* dit altijd doen, is om automatische browser instellingen tegen te gaan */
+    background-color: silver;
+    margin: 0px;
+    padding: 0px,
+}
+#wrapper{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

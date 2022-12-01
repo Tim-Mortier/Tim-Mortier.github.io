@@ -1,0 +1,11 @@
+
+section {
+    display: inline-block;
+    width: 49%;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.whitespace {
+    margin-left: 10px;
+}
