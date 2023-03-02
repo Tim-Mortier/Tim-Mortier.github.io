@@ -1,0 +1,20 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table th{
+    background-color: blue;
+}
+table tr .weekdays{
+    background-color: darkblue;
+    color: blue;
+}
+.weekdays td{
+    border: 1px dotted blue;
+}
+.lastmonth{
+    background-color: gray;
+}
+td:first-child, td:last-child{
+    background-color: lightblue;
+}

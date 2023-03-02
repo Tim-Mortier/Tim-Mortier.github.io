@@ -1,0 +1,95 @@
+body{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial;
+}
+
+header{
+    position: relative;
+    height: 200px;
+    background-image: url("../fotos/bgsky3.jpg");
+    text-align: center;
+    color: darkblue;
+}
+header > h1{
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+header > h2{
+    font-size: 240%;
+    font-weight: bold;
+}
+header > img{
+    position: absolute;
+    right: 90px;
+    bottom: 60px;
+}
+
+aside{
+    width: 250px;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    float: right;
+}
+aside > p{
+    color: #666666;
+    font-size: 90%;
+    padding: 10px;
+}
+aside > h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+main{
+    width: 700px;
+    float: left;
+}
+main > .logo{
+    float: left;
+    margin: 20px 20px 0 0;
+}
+main > article > p{
+    overflow: hidden;
+    text-align: justify;
+    margin: 20px 30px 20px 0;
+}
+main > article > p > span{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+main > section {
+    background-color: #999999;
+    padding: 10px 0 10px 10px;
+    overflow: hidden;
+}
+main > section > .foto > img{
+    size: 180px 180px;
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: white;
+    float: left;
+    border: 1px dotted #999999;
+}
+
+footer{
+    background-color: #666666;
+    clear: both;
+    color: white;
+    line-height: 2em;
+}
+footer > article{
+    margin-left: 120px;
+    display: inline-block;
+}
+footer article a{
+    color: white;
+}
+footer article a:hover{
+    color: red;
+}

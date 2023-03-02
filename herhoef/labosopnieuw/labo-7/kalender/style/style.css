@@ -1,0 +1,25 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr:first-child{
+    background-color: rgb(170,170,200);
+}
+.daysheading{
+    color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+
+}
+.daysheading > td{
+    border: 1px dotted rgb(200,190,240);
+}
+
+.days > td{
+    border: 1px dotted black;
+}
+.days > td:first-child, .days > td:last-child{
+    background-color: rgb(255,220,220);
+}
+.vrijedag{
+    background-color: rgb(250, 120, 120);
+}

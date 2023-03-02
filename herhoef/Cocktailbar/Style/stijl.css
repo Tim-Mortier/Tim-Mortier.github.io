@@ -1,0 +1,84 @@
+body {
+    width: 95%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    font-size: 1.2em;
+    font-family: Verdana;
+}
+#hoofd {
+    width: 70%;
+    /* float: left; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#specials {
+    width: 30%;
+    /* float: right; */
+    border: 3px solid #a7cece;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#specials a:hover {
+    background-color: saddlebrown;
+}
+
+#specials h1{
+    color: black;
+    background-image: url("../images/cocktail.gif");
+    padding-top: 45px;
+    margin-top: 0;
+    background-repeat: repeat;
+}
+
+#specials h2{
+    color: red;
+}
+
+a {
+    color: black;
+}
+
+h1, h2{
+    color: #007e7e;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 3px dotted white;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    padding-left: 50px;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    /* clear: both; */
+    text-align: center;
+}
+
+.cursief{
+    font-style: italic;
+}
+
+.vet{
+    font-weight: bold;
+}

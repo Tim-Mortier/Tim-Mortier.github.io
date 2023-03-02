@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top {
+    height: 200px;
+    background-image: url("../fotos/bgsky3.jpg");
+    text-align: center;
+    color: darkblue;
+    position: relative;
+}
+#top h1{
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+#top h2{
+    font-size: 150%;
+    font-weight: bold;
+}
+#top img{
+    position: absolute;
+    bottom: 60px;
+    right: 90px;
+
+}
+aside{
+    float: right;
+    width: 250px;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+}
+aside p{
+    color: #666666;
+    font-size: 90%;
+    padding: 10px;
+}
+aside h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+main{
+    float: left;
+    width: 700px;
+}
+main #img{
+    margin-top: 20px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#introduction{
+    background-color: white;
+    color: black;
+}
+#introduction p{
+    overflow: hidden;
+    text-align: justify;
+    margin: 20px 30px 20px 0px;
+}
+#introduction span{
+    color: blue;
+    font-weight: bold;
+}
+#gallery{
+    background-color: #999999;
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+}
+#gallery img{
+    size: 180px 180px;
+    background-color: white;
+    padding: 10px;
+    border: 1px dotted gray;
+    float: left;
+    margin: 10px 10px;
+}
+footer{
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+    clear: both;
+}
+footer .block {
+    margin-left: 120px;
+    display: inline-block;
+}
+footer .block a{
+    color: white;
+}
+#copyright{
+    text-align: center;
+}

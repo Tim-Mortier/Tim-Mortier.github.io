@@ -1,0 +1,34 @@
+
+body{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    background-image: url("../header.jpg");
+    background-repeat: no-repeat;
+    height: 100px;
+}
+header > h1{
+    font-size: 3em;
+    color: white;
+}
+nav{
+    background-color: darkgray;
+}
+nav > a{
+    color: #4a987b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article{
+    margin: 10px;
+    padding: 20px 5px 5px 5px;
+    background-color: lightgray;
+}
+article > header > h1{
+    font-size: 2em;
+    text-decoration: underline;
+    color: black;
+}
